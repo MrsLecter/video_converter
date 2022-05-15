@@ -7,5 +7,3 @@
 <li>2)start celery: celery -A celery_worker worker -Q hipri</li>
 <li>3)start main.py</li>
 </ul>
-
-## WORKING EXAMPLE
