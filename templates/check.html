@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+</head>
+<body>
+    <h2>Check task status</h2>
+    <ul>
+        <p>Your taks ids: </p>
+        <p> 
+        {%for key in data%} 
+        <li><a href='./check/{{data[key]}}'>Created: {{key}} ==> id:  {{data[key]}}</a></li>
+        {%endfor%}
+    </ul>
+</body>
+</html>
